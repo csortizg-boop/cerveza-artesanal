@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; background-color: #0b0b1a; color: #fff; margin:0; }
+header { background-color: #111; padding: 10px; display:flex; align-items:center; justify-content:space-between; }
+.logo { height:60px; }
+nav ul { list-style: none; margin: 0; padding: 0; display: flex; }
+nav ul li { position: relative; }
+nav ul li a { color: #ffcc00; padding: 10px 15px; text-decoration: none; display: block; }
+nav ul li:hover > ul { display: block; }
+nav ul ul { display: none; position: absolute; background: #222; top: 100%; left: 0; }
+nav ul ul li a { color: #fff; }
+section { padding: 40px; text-align: center; }
+.galeria img { width: 200px; margin: 10px; border-radius: 10px; transition: transform 0.3s; }
+.galeria img:hover { transform: scale(1.1); }
+.whatsapp { background-color: #25D366; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight:bold; }
+.whatsapp:hover { background-color: #128C7E; }
